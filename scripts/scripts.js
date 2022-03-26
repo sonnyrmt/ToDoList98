@@ -18,7 +18,7 @@ const loadEventListeners = () => {
 
 const validateText = () => {
   inputText.value === "" ? (button.disabled = true) : (button.disabled = false);
-  if (inputText.value.length > 28) {
+  if (inputText.value.length > 27) {
     button.disabled = true;
     button.textContent = "Maximum 28 characters";
     button.classList.add("maxChar");
