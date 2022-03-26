@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/98.css" />
+    <title>Local Storage</title>
+  </head>
+  <body>
+    <div class="window" style="margin: 32px; width: 400px">
+      <div class="title-bar">
+        <div class="title-bar-text">
+          To Do List
+        </div>
+
+        <div class="title-bar-controls">
+          <button aria-label="Minimize"></button>
+          <button aria-label="Maximize"></button>
+          <button aria-label="Close"></button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container-inputs">
+          <div class="inputs">
+            <label for="title_input">Type here</label>
+            <input type="text" id="input_text" />
+            <button type="submit" id="add_button">Add</button>
+          </div>
+          <div class="logo-container">
+            <img src="img/logo.png" alt="logo windows 98" />
+          </div>
+        </div>
+        <div class="stored">
+          <p class="title">List</p>
+          <div id="ul_list"></div>
+        </div>
+      </div>
+    <script src="/scripts/moment.js"></script>
+    <script src="scripts/scripts.js"></script>
+  </body>
+</html>
